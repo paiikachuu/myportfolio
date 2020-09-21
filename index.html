@@ -8,8 +8,10 @@
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
     <title>Pai | Software Engineer</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./some_styles/modal.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
@@ -26,14 +28,17 @@
       <!-- navigation -->
       <nav>
         <!-- logo -->
-        <!-- <a href="#" class="logo">Logo</a> -->
+        <a href="#" class="logo">Logo</a>
 
         <!-- menu -->
         <ul>
           <li><a href="#text-container" class="active">Home</a></li>
           <li><a href="#about-container">About</a></li>
-          <li><a href="#contact-container">Contact</a></li>
+          <li><a href="#services-container">Services</a></li>
           <li><a href="#resume-container">Resume</a></li>
+          <li><a href="#portfolio-container">Portfolio</a></li>
+          <li><a href="#blog-container">Blog</a></li>
+          <li><a href="#contact-container">Contact</a></li>
         </ul>
         <!-- end of menu -->
 
@@ -49,11 +54,11 @@
         <p>Hello,</p>
         <p>I'm Ramer Pailou Nuñeza</p>
         <p>
-          I'm a Software Engineer <br />
-          & Designer
+          I'm a Web Developer<br />
+          & Web Designer
         </p>
         <button class="hire-btn">Hire</button>
-        <button id="btnPreview" class="down-cv">Resume</button>
+        <button id="btnPreview" class="down-cv">Show CV</button>
       </div>
       <!-- end of text -->
       <!-- model image -->
@@ -83,47 +88,44 @@
       </div>
     </div>
     <!-- end of about -->
-
-    <!-- services -->
+    <div class="skills-container">
+      <div class="skills-text">
+        <p>Skills</p>
+      </div>
+    </div>
+    <!-- skills -->
     <div class="services">
       <div class="services-text">
         <p>Services</p>
-        <p>Services Required</p>
-        <p>
-          If you want to make web applications for your business, feel free to
-          contact me.
-        </p>
+        <p></p>
+        <p></p>
       </div>
       <div class="box-container">
         <div class="box-1">
           <span>1</span>
           <p class="heading">Web Development</p>
-          <p class="details">
-            If you want to make a website for your business. I can make that as
-            soon as possible.
-          </p>
+          <p class="details">From server side to front-end requests</p>
           <button>Read More</button>
         </div>
         <div class="box-2">
           <span>2</span>
           <p class="heading">Web Design</p>
-          <p class="details">
-            If you want to make a website for your business. I can make that as
-            soon as possible.
-          </p>
+          <p class="details">UI/UX design that suits your needs</p>
           <button>Read More</button>
         </div>
         <div class="box-3">
           <span>3</span>
-          <p class="heading">Database Structure</p>
+          <p class="heading">Database</p>
           <p class="details">
-            If you want to make a website for your business. I can make that as
-            soon as possible.
+            Design, structure and optimization of database queries
           </p>
           <button>Read More</button>
         </div>
       </div>
     </div>
+    <!-- end of skills -->
+    <!-- services -->
+
     <!-- end of services -->
 
     <!-- contact  -->
@@ -181,5 +183,5 @@
     <div class="modal-content"></div>
   </body>
 
-  <script src="./scripts.js"></script>
+  <script src="./js/scripts.js"></script>
 </html>
