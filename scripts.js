@@ -1,10 +1,9 @@
-$(document).ready(function () {
-  $(".toggle").click(function () {
+$(".toggle").click(function () {
+  $(this).fadeIn("slow", function () {
     $(this).toggleClass("active");
-    $("nav").toggleClass("active");
   });
+  $("nav").toggleClass("active");
 });
-
 // Get the modal
 var modal = document.getElementById("myModal");
 

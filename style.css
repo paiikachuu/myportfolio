@@ -36,10 +36,6 @@ nav ul {
   display: flex;
 }
 
-.toggle {
-  display: none;
-}
-
 nav ul li a {
   margin: 30px;
   font-family: Arial;
@@ -48,11 +44,13 @@ nav ul li a {
   font-weight: 700;
 }
 
+/* 
 .logo {
   font-family: Arial;
   color: #000000;
   font-size: 22px;
 }
+*/
 
 .active {
   font-weight: bold;
@@ -110,7 +108,7 @@ nav ul li a {
 }
 
 .down-cv {
-  background-color: green;
+  background-color: #007c32;
   color: white;
   border: 1px solid black;
 }
@@ -125,6 +123,7 @@ button:active {
   bottom: 0px;
   left: 70%;
   transform: translateX(-70%);
+  filter: drop-shadow(10px 20px 25px #222);
 }
 
 .about-container {
@@ -533,7 +532,7 @@ footer p:nth-child(2) {
     line-height: 0px;
   }
   nav.active ul {
-    display: flex !important;
+    display: flex;
   }
   .about-container {
     top: 0px;
@@ -563,4 +562,8 @@ footer p:nth-child(2) {
   footer p:nth-child(2) {
     width: 90%;
   }
+}
+
+#resumeFile {
+  border-radius: 7px;
 }

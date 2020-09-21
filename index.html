@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
-    <title>Ramer Pailou Nuñeza | Software Engineer</title>
+    <title>Pai | Software Engineer</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./some_styles/modal.css" />
     <link
@@ -26,14 +26,14 @@
       <!-- navigation -->
       <nav>
         <!-- logo -->
-        <a href="#" class="logo">Logo</a>
+        <!-- <a href="#" class="logo">Logo</a> -->
 
         <!-- menu -->
         <ul>
           <li><a href="#text-container" class="active">Home</a></li>
           <li><a href="#about-container">About</a></li>
           <li><a href="#contact-container">Contact</a></li>
-          <li><a href="#">Team</a></li>
+          <li><a href="#resume-container">Resume</a></li>
         </ul>
         <!-- end of menu -->
 
@@ -53,7 +53,7 @@
           & Designer
         </p>
         <button class="hire-btn">Hire</button>
-        <button id="btnPreview" class="down-cv">My CV</button>
+        <button id="btnPreview" class="down-cv">Resume</button>
       </div>
       <!-- end of text -->
       <!-- model image -->
@@ -144,9 +144,8 @@
       </p>
       <div class="social-icons">
         <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
       </div>
       <p class="copyright">Copyright by</p>
     </footer>
@@ -155,9 +154,8 @@
     <!-- attached social bar -->
     <div class="a-social-b">
       <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
       <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
     </div>
     <!-- end of attached social bar -->
     <!-- partial -->
@@ -165,20 +163,18 @@
     <!-- The Modal -->
     <div id="myModal" class="modal">
       <!-- Modal content -->
+      <div class="modal-header">
+        <span class="close" data-dismiss="modal"> &times; </span>
+      </div>
+
       <div class="modal-content">
-        <div class="modal-header">
-          <span class="close">&times;</span>
-        </div>
         <div class="modal-body">
           <embed
-            src="./files/Resume.pdf"
-            height="1000px"
+            id="resumeFile"
+            src="./files/Resume.pdf#view=FitBH,top"
+            height="750px"
             width="100%"
-            type=""
           />
-        </div>
-        <div class="modal-footer">
-          <h3>Modal Footer</h3>
         </div>
       </div>
     </div>
