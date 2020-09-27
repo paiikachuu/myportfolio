@@ -106,10 +106,24 @@
           align-items: center;
 }
 
+.home-container .texts p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.home-container .texts p:nth-child(1) {
+  font-weight: bold;
+  font-size: 22px;
+}
+
 .home-container .texts p:nth-child(2) {
   font-size: 50px;
   line-height: 50px;
   padding: 0.6em 0px;
+}
+
+.home-container .texts p:nth-child(3) {
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .home-container .buttons {
@@ -119,6 +133,27 @@
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   padding: 30px;
+}
+
+.home-container .buttons .hire-btn {
+  border: 2px solid transparent;
+}
+
+.home-container .buttons .down-cv {
+  background-color: #e94560;
+  color: white;
+  border: 1px solid transparent;
+}
+
+.home-container .buttons button {
+  width: 130px;
+  height: 42px;
+  border-radius: 10px;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+  margin: 0px 10px;
 }
 
 .home-container .image {
@@ -367,38 +402,6 @@
   .submenu-active {
     border-radius: 0;
   }
-  .home-container {
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .home-container .texts {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .home-container .texts p:nth-child(2) {
-    font-size: 50px;
-    line-height: 50px;
-  }
-  .home-container .buttons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-  }
-  .home-container .image img {
-    height: 400px;
-  }
 }
 
 body {
@@ -473,47 +476,6 @@ section {
 .active {
   font-weight: bold;
   color: #2d2a2a;
-}
-
-.home-container p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.home-container p:nth-child(1) {
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.home-container p:nth-child(2) {
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 60px;
-}
-
-.home-container p:nth-child(3) {
-  font-size: 30px;
-  line-height: 30px;
-}
-
-.home-container button {
-  width: 130px;
-  height: 42px;
-  border-radius: 10px;
-  font-family: calibri;
-  font-weight: bold;
-  font-size: 15px;
-  outline: none;
-  margin: 0px 10px;
-}
-
-.hire-btn {
-  border: 2px solid transparent;
-}
-
-.down-cv {
-  background-color: #e94560;
-  color: white;
-  border: 1px solid transparent;
 }
 
 button:active {

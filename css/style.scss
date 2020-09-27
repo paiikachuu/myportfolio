@@ -76,51 +76,6 @@ section {
   color: #2d2a2a;
 }
 
-.home-container {
-  p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-  }
-
-  p:nth-child(1) {
-    font-weight: bold;
-    font-size: 22px;
-  }
-
-  p:nth-child(2) {
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-size: 60px;
-  }
-
-  p:nth-child(3) {
-    font-size: 30px;
-    line-height: 30px;
-  }
-
-  button {
-    width: 130px;
-    height: 42px;
-    border-radius: 10px;
-    font-family: calibri;
-    font-weight: bold;
-    font-size: 15px;
-    outline: none;
-    margin: 0px 10px;
-  }
-}
-
-.hire-btn {
-  // background-color: #4caf50;
-  border: 2px solid transparent;
-}
-
-.down-cv {
-  background-color: $p-redorange;
-  color: white;
-  border: 1px solid transparent;
-}
-
 button:active {
   transform: scale(1.1);
 }
