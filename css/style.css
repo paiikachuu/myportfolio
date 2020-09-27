@@ -116,6 +116,7 @@
 }
 
 .home-container .texts p:nth-child(2) {
+  font-weight: bold;
   font-size: 50px;
   line-height: 50px;
   padding: 0.6em 0px;
