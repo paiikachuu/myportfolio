@@ -134,32 +134,6 @@ button:active {
 }
 
 .about-container {
-  .about-text {
-    p:nth-child(1) {
-      font-family: Arial;
-      font-weight: bold;
-      font-size: 35px;
-    }
-
-    p:nth-child(2) {
-      font-size: 15px;
-      font-family: Arial;
-      font-weight: bold;
-    }
-
-    p:nth-child(3),
-    p:nth-child(4) {
-      font-family: Arial;
-      font-size: 16px;
-    }
-    button {
-      width: 120px;
-      height: 40px;
-      outline: none;
-      border: none;
-    }
-  }
-
   .work-experience {
     p:nth-child(1) {
       font-family: Arial;
@@ -357,24 +331,6 @@ footer p:nth-child(2) {
 
 #resumeFile {
   border-radius: 7px;
-}
-
-.skills-container {
-  display: flex;
-  height: 100vh;
-  padding: 2% 10% 0px 10%;
-
-  .skills-text {
-    width: 500px;
-    margin: 50px 0px;
-
-    p:nth-child(1) {
-      font-family: calibri;
-      font-weight: bold;
-      font-size: 39px;
-      line-height: 0px;
-    }
-  }
 }
 
 // cards

@@ -103,6 +103,31 @@
     display: flex;
     align-items: center;
     padding: 1em;
+
+    p:nth-child(1) {
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 35px;
+    }
+
+    p:nth-child(2) {
+      font-size: 15px;
+      font-family: Arial;
+      font-weight: bold;
+    }
+
+    p:nth-child(3),
+    p:nth-child(4) {
+      font-family: Arial;
+      font-size: 16px;
+    }
+
+    button {
+      width: 120px;
+      height: 40px;
+      outline: none;
+      border: none;
+    }
   }
   .work-experience {
     flex-direction: column;
@@ -115,6 +140,15 @@
     div {
       padding: 0.6em;
       width: 100%;
+    }
+  }
+
+  .skills-container {
+    display: flex;
+    .skills-header p {
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 35px;
     }
   }
 }

@@ -170,6 +170,31 @@
   padding: 1em;
 }
 
+.about-container .about-text p:nth-child(1) {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.about-container .about-text p:nth-child(2) {
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.about-container .about-text p:nth-child(3),
+.about-container .about-text p:nth-child(4) {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.about-container .about-text button {
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+
 .about-container .work-experience {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -191,6 +216,18 @@
 .about-container .work-experience div {
   padding: 0.6em;
   width: 100%;
+}
+
+.about-container .skills-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-container .skills-container .skills-header p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .modal {
@@ -492,31 +529,6 @@ button:active {
   padding: 2px;
 }
 
-.about-container .about-text p:nth-child(1) {
-  font-family: Arial;
-  font-weight: bold;
-  font-size: 35px;
-}
-
-.about-container .about-text p:nth-child(2) {
-  font-size: 15px;
-  font-family: Arial;
-  font-weight: bold;
-}
-
-.about-container .about-text p:nth-child(3),
-.about-container .about-text p:nth-child(4) {
-  font-family: Arial;
-  font-size: 16px;
-}
-
-.about-container .about-text button {
-  width: 120px;
-  height: 40px;
-  outline: none;
-  border: none;
-}
-
 .about-container .work-experience p:nth-child(1) {
   font-family: Arial;
   font-weight: bold;
@@ -757,26 +769,6 @@ footer p:nth-child(2) {
 
 #resumeFile {
   border-radius: 7px;
-}
-
-.skills-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100vh;
-  padding: 2% 10% 0px 10%;
-}
-
-.skills-container .skills-text {
-  width: 500px;
-  margin: 50px 0px;
-}
-
-.skills-container .skills-text p:nth-child(1) {
-  font-family: calibri;
-  font-weight: bold;
-  font-size: 39px;
-  line-height: 0px;
 }
 
 .card {
