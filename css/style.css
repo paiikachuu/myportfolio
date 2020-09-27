@@ -492,12 +492,6 @@ button:active {
   padding: 2px;
 }
 
-.about-container .work-experience p:nth-child(1) {
-  font-family: Arial;
-  font-weight: bold;
-  font-size: 35px;
-}
-
 .services {
   height: 100vh;
   padding: 2% 10% 0px 10%;
