@@ -30,4 +30,73 @@
   .submenu-active {
     border-radius: 0;
   }
+
+  .home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    .texts {
+      align-items: center;
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      p:nth-child(1) {
+        font-weight: bold;
+        font-size: 22px;
+      }
+      p:nth-child(2) {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 50px;
+        padding: 0.6em 0px;
+      }
+      p:nth-child(3) {
+        font-size: 30px;
+        line-height: 30px;
+      }
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px;
+
+      .hire-btn {
+        border: 2px solid transparent;
+      }
+
+      .down-cv {
+        background-color: $p-redorange;
+        color: white;
+        border: 1px solid transparent;
+      }
+
+      button {
+        width: 130px;
+        height: 42px;
+        border-radius: 10px;
+        font-family: calibri;
+        font-weight: bold;
+        font-size: 15px;
+        outline: none;
+        margin: 0px 10px;
+      }
+    }
+    .image {
+      display: flex;
+      justify-content: center;
+      padding-top: 1.25em;
+    }
+    .image img {
+      position: relative;
+      left: 79%;
+      top: 50%;
+      height: 20em;
+    }
+    .reverse {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
