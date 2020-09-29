@@ -149,47 +149,75 @@ $p-redorange: #e94560;
       font-family: Arial;
       font-weight: bold;
       font-size: 35px;
-    }
-
-    p:nth-child(2) {
-      font-size: 15px;
-      font-family: Arial;
-      font-weight: bold;
-    }
-
-    p:nth-child(3),
-    p:nth-child(4) {
-      font-family: Arial;
-      font-size: 16px;
-    }
-
-    button {
-      width: 120px;
-      height: 40px;
-      outline: none;
-      border: none;
+      padding: 15px;
     }
   }
+
   .work-experience {
     flex-direction: column;
     display: flex;
     align-items: center;
-    padding: 1em;
+    padding: 1px 10px;
+    margin-bottom: 10%;
+
     .work-experience-header {
-      padding: 5px;
+      font-weight: bold;
+      font-size: 35px;
+      padding: 10px;
     }
-    div {
+    .card {
       padding: 0.6em;
-      width: 100vw;
+      width: 100%;
+      background-color: $p-dark2;
+      margin: 2px;
     }
   }
+}
 
-  .skills-container {
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  .skills-header {
     display: flex;
-    .skills-header p {
+    align-content: center;
+    justify-content: center;
+    p {
       font-family: Arial;
       font-weight: bold;
       font-size: 35px;
+      padding: 15px;
+    }
+  }
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+
+  .services-text {
+    p {
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 35px;
+      padding: 15px;
+      margin: 10px 0px;
+    }
+  }
+
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    .box {
+      width: 95%;
+      margin: 10px;
+      padding: 10px;
+      background-color: $p-redorange;
+      justify-content: center;
+      .heading {
+        align-items: center;
+      }
     }
   }
 }
