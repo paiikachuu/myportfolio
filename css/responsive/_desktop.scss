@@ -33,11 +33,13 @@
 
   .home-container {
     height: 100vh;
+    width: 100vw;
     display: flex;
-    flex-direction: row;
-    align-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8% 12%;
     .texts {
-      align-items: center;
+      align-items: flex-start;
       p {
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
@@ -84,18 +86,18 @@
       }
     }
     .image {
-      display: flex;
+      display: unset;
       justify-content: center;
       padding-top: 1.25em;
     }
     .image img {
       position: relative;
-      left: 79%;
-      top: 50%;
+      left: 0%;
+      top: 0%;
       height: 20em;
     }
     .reverse {
-      display: flex;
+      display: initial;
       flex-direction: column;
     }
   }

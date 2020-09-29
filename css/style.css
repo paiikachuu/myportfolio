@@ -1,16 +1,17 @@
 /* Mobile menu */
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .menu li a {
@@ -24,21 +25,21 @@
 
 .toggle {
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -ms-flex-order: 1;
+  order: 1;
   font-size: 20px;
 }
 
 .item.button {
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order: 2;
+  order: 2;
 }
 
 .item {
   -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
+  -ms-flex-order: 3;
+  order: 3;
   width: 100%;
   text-align: center;
   display: none;
@@ -54,6 +55,7 @@
 }
 
 /* Submenu up from mobile screens */
+
 .submenu {
   display: none;
 }
@@ -66,7 +68,7 @@
   font-size: 12px;
 }
 
-.has-submenu > a::after {
+.has-submenu>a::after {
   font-family: "Font Awesome 5 Free";
   font-size: 12px;
   line-height: 16px;
@@ -93,22 +95,22 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .home-container .texts {
   padding: 15px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .home-container .texts p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .home-container .texts p:nth-child(1) {
@@ -133,7 +135,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   padding: 30px;
 }
 
@@ -164,8 +166,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-top: 1.25em;
 }
 
@@ -179,8 +181,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 
 .about-container {
@@ -190,21 +192,21 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .about-container .about-text {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 1em;
 }
 
@@ -220,8 +222,7 @@
   font-weight: bold;
 }
 
-.about-container .about-text p:nth-child(3),
-.about-container .about-text p:nth-child(4) {
+.about-container .about-text p:nth-child(3), .about-container .about-text p:nth-child(4) {
   font-family: Arial;
   font-size: 16px;
 }
@@ -236,14 +237,14 @@
 .about-container .work-experience {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 1em;
 }
 
@@ -280,8 +281,8 @@
   background-color: black;
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .modal-content {
@@ -302,42 +303,41 @@
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
   -webkit-transform: scale(1.6);
-          transform: scale(1.6);
+  transform: scale(1.6);
 }
 
 @media all and (min-width: 700px) {
   /* Tablet menu */
   .menu {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .logo {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
   .item.button {
     width: auto;
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
     display: block;
   }
   .toggle {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     text-align: right;
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
   }
   /* Button up from tablet screen */
   .menu li.button a {
@@ -368,29 +368,29 @@
   /* Desktop menu */
   .menu {
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     background: none;
   }
   .logo {
     -webkit-box-ordinal-group: 1;
-        -ms-flex-order: 0;
-            order: 0;
+    -ms-flex-order: 0;
+    order: 0;
   }
   .item {
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
     position: relative;
     display: block;
     width: auto;
   }
   .button {
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
   }
   .submenu-active .submenu {
     display: block;
@@ -407,23 +407,26 @@
   }
   .home-container {
     height: 100vh;
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 8% 12%;
   }
   .home-container .texts {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
   .home-container .texts p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   .home-container .texts p:nth-child(1) {
     font-weight: bold;
@@ -444,7 +447,7 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     padding: 30px;
   }
   .home-container .buttons .hire-btn {
@@ -466,28 +469,24 @@
     margin: 0px 10px;
   }
   .home-container .image {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: unset;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding-top: 1.25em;
   }
   .home-container .image img {
     position: relative;
-    left: 79%;
-    top: 50%;
+    left: 0%;
+    top: 0%;
     height: 20em;
   }
   .home-container .reverse {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: unset;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -502,7 +501,7 @@ body {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -517,8 +516,7 @@ a {
   text-decoration: none;
 }
 
-.menu,
-.submenu {
+.menu, .submenu {
   list-style-type: none;
 }
 
@@ -535,16 +533,8 @@ a {
   padding: 9px 5px;
 }
 
-.item:not(.button) a:hover,
-.item a:hover::after {
+.item:not(.button) a:hover, .item a:hover::after {
   color: #ccc;
-}
-
-section {
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
 .logo {
@@ -564,7 +554,7 @@ section {
 
 button:active {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .model {
@@ -603,25 +593,23 @@ button:active {
   font-family: calibri;
 }
 
-.box-1,
-.box-2,
-.box-3 {
+.box-1, .box-2, .box-3 {
   width: 300px;
   height: 320px;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
-          box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-color: #0f3460;
   color: white;
 }
@@ -636,18 +624,17 @@ button:active {
   
 }
 */
-.box-1 span,
-.box-2 span,
-.box-3 span {
+
+.box-1 span, .box-2 span, .box-3 span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -656,26 +643,20 @@ button:active {
   font-weight: bold;
 }
 
-.box-1 p:nth-child(2),
-.box-2 p:nth-child(2),
-.box-3 p:nth-child(2) {
+.box-1 p:nth-child(2), .box-2 p:nth-child(2), .box-3 p:nth-child(2) {
   font-family: calibri;
   font-size: 23px;
   line-height: 0px;
 }
 
-.box-1 p:nth-child(3),
-.box-2 p:nth-child(3),
-.box-3 p:nth-child(3) {
+.box-1 p:nth-child(3), .box-2 p:nth-child(3), .box-3 p:nth-child(3) {
   font-family: calibri;
   text-align: center;
   width: 230px;
   margin: 0px 0px 20px 0px;
 }
 
-.box-1 button,
-.box-2 button,
-.box-3 button {
+.box-1 button, .box-2 button, .box-3 button {
   width: 100px;
   height: 30px;
   border: none;
@@ -689,14 +670,14 @@ button:active {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -727,14 +708,14 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
 }
 
@@ -767,11 +748,11 @@ footer p:nth-child(2) {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: gray;
   margin: 20px 10px;
   border-radius: 50%;
@@ -784,7 +765,7 @@ footer p:nth-child(2) {
   left: 50%;
   bottom: 10px;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .social-icons i {
@@ -794,7 +775,7 @@ footer p:nth-child(2) {
 .social-icons a:hover {
   background-color: white;
   -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-          box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
@@ -804,7 +785,7 @@ footer p:nth-child(2) {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   -webkit-transform: scale(2);
-          transform: scale(2);
+  transform: scale(2);
 }
 
 #resumeFile {
@@ -813,7 +794,7 @@ footer p:nth-child(2) {
 
 .card {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.3s;
   transition: 0.3s;
   width: 40%;
@@ -822,7 +803,7 @@ footer p:nth-child(2) {
 
 .card:hover {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-content {
@@ -833,4 +814,5 @@ footer p:nth-child(2) {
   font-size: 12px;
   color: gray;
 }
+
 /*# sourceMappingURL=style.css.map */

@@ -66,8 +66,8 @@ $p-redorange: #e94560;
 
 // Home Container
 .home-container {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,7 +136,7 @@ $p-redorange: #e94560;
 
 // About-container
 .about-container {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   .about-text {
