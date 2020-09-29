@@ -319,6 +319,13 @@
           align-items: center;
 }
 
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
 .modal {
   display: none;
   position: fixed;
@@ -635,7 +642,6 @@ button:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100vw;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -645,7 +651,7 @@ button:active {
   font-size: 30px;
   font-family: calibri;
   font-weight: bold;
-  border-bottom: 2px solid #dcdcdc;
+  padding: 20px;
 }
 
 .contact-container button {
@@ -659,7 +665,6 @@ button:active {
 }
 
 footer {
-  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -667,13 +672,13 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
+}
+
+footer p {
+  padding: 10px;
 }
 
 footer p {

@@ -85,7 +85,6 @@ button:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -94,7 +93,7 @@ button:active {
     font-size: 30px;
     font-family: calibri;
     font-weight: bold;
-    border-bottom: 2px solid #dcdcdc;
+    padding: 20px;
   }
 
   button {
@@ -109,12 +108,12 @@ button:active {
 }
 
 footer {
-  height: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  position: relative;
+  p {
+    padding: 10px;
+  }
 }
 
 footer p {
