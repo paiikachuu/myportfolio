@@ -168,6 +168,10 @@ $p-redorange: #e94560;
     padding: 1em;
     height: 500px;
     font-size: 20px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 20px;
+    margin: 25px;
 
     p:nth-child(1) {
       font-family: Arial;
@@ -194,7 +198,7 @@ $p-redorange: #e94560;
       padding: 20px;
       width: 100%;
       background-color: $p-dark2;
-      margin: 10px;
+      margin: 15px;
     }
   }
 }
@@ -203,6 +207,10 @@ $p-redorange: #e94560;
 .skills-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  height: 600px;
+  margin-left: 15px;
+  margin-right: 15px;
 
   .skills-header {
     display: flex;
@@ -216,6 +224,12 @@ $p-redorange: #e94560;
       padding: 15px;
     }
   }
+
+  .skills-content {
+    img {
+      height: 100px;
+    }
+  }
 }
 
 // Services container
@@ -224,6 +238,7 @@ $p-redorange: #e94560;
   flex-direction: column;
   height: 100%;
   align-items: center;
+  margin: 10%;
 
   .services-text {
     p {
@@ -241,14 +256,23 @@ $p-redorange: #e94560;
     text-align: center;
 
     .box {
-      width: 95%;
-      margin: 10px;
+      margin: 20px;
       padding: 10px;
-      background-color: $p-redorange;
+      height: 200px;
+      background-color: #0f3460;
       justify-content: center;
+
+      span {
+        margin: 50px;
+        background-color: white;
+        padding: 20px;
+        color: black;
+      }
 
       .heading {
         align-items: center;
+        font-size: 25px;
+        padding-top: 50px;
       }
     }
   }

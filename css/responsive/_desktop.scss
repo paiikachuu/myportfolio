@@ -127,6 +127,7 @@
       display: flex;
       align-items: center;
       padding: 1em;
+      width: 60%;
 
       p:nth-child(1) {
         font-family: Arial;
@@ -150,7 +151,7 @@
       .card {
         padding: 0.6em;
         background-color: $p-dark2;
-        margin: 10px;
+        margin: 20px;
       }
     }
   }
@@ -160,6 +161,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 600px;
+    margin-left: 100px;
+    margin-right: 100px;
 
     .skills-header {
       display: flex;
@@ -171,6 +175,57 @@
         font-weight: bold;
         font-size: 35px;
         padding: 15px;
+      }
+    }
+  }
+
+  // Services container
+  .services-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+
+    .services-text {
+      p {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 35px;
+        padding: 15px;
+        margin: 10px 0px;
+      }
+    }
+
+    .box-container {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+
+      .box {
+        margin: 20px;
+        width: 100%;
+        padding: 10px;
+        height: 200px;
+        background-color: #0f3460;
+        justify-content: center;
+
+        span {
+          margin: 50px;
+          background-color: white;
+          padding: 20px;
+          color: black;
+        }
+
+        .heading {
+          align-items: center;
+          font-size: 25px;
+          padding-top: 50px;
+        }
+
+        .details {
+          padding-top: 10px;
+          font-style: italic;
+        }
       }
     }
   }

@@ -207,6 +207,10 @@
   padding: 1em;
   height: 500px;
   font-size: 20px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 20px;
+  margin: 25px;
 }
 
 .about-container .about-text p:nth-child(1) {
@@ -241,7 +245,7 @@
   padding: 20px;
   width: 100%;
   background-color: #16213e;
-  margin: 10px;
+  margin: 15px;
 }
 
 .skills-container {
@@ -252,6 +256,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 600px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .skills-container .skills-header {
@@ -272,6 +282,10 @@
   padding: 15px;
 }
 
+.skills-container .skills-content img {
+  height: 100px;
+}
+
 .services-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -284,6 +298,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 10%;
 }
 
 .services-container .services-text p {
@@ -306,19 +321,28 @@
 }
 
 .services-container .box-container .box {
-  width: 95%;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
-  background-color: #e94560;
+  height: 200px;
+  background-color: #0f3460;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.services-container .box-container .box span {
+  margin: 50px;
+  background-color: white;
+  padding: 20px;
+  color: black;
 }
 
 .services-container .box-container .box .heading {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 25px;
+  padding-top: 50px;
 }
 
 .contact-container {
@@ -571,6 +595,7 @@
         -ms-flex-align: center;
             align-items: center;
     padding: 1em;
+    width: 60%;
   }
   .about-container .about-text p:nth-child(1) {
     font-family: Arial;
@@ -591,7 +616,7 @@
   .about-container .work-experience .card {
     padding: 0.6em;
     background-color: #16213e;
-    margin: 10px;
+    margin: 20px;
   }
   .skills-container {
     display: -webkit-box;
@@ -604,6 +629,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 600px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   .skills-container .skills-header {
     display: -webkit-box;
@@ -620,6 +648,63 @@
     font-weight: bold;
     font-size: 35px;
     padding: 15px;
+  }
+  .services-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services-container .services-text p {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 15px;
+    margin: 10px 0px;
+  }
+  .services-container .box-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+  }
+  .services-container .box-container .box {
+    margin: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    background-color: #0f3460;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .services-container .box-container .box span {
+    margin: 50px;
+    background-color: white;
+    padding: 20px;
+    color: black;
+  }
+  .services-container .box-container .box .heading {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 25px;
+    padding-top: 50px;
+  }
+  .services-container .box-container .box .details {
+    padding-top: 10px;
+    font-style: italic;
   }
 }
 
@@ -843,6 +928,10 @@ hr {
   font-size: 12px;
 }
 
+.card {
+  border-radius: 10px;
+}
+
 .card-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -868,5 +957,17 @@ hr {
 
 .mlhuillier {
   background-color: white;
+}
+
+.about-me {
+  padding: 10px;
+}
+
+.skills-container {
+  border-radius: 10px;
+}
+
+.box {
+  border-radius: 15px;
 }
 /*# sourceMappingURL=style.css.map */
