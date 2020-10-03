@@ -184,7 +184,6 @@
 }
 
 .about-container {
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,6 +205,8 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 1em;
+  height: 500px;
+  font-size: 20px;
 }
 
 .about-container .about-text p:nth-child(1) {
@@ -237,10 +238,10 @@
 }
 
 .about-container .work-experience .card {
-  padding: 0.6em;
+  padding: 20px;
   width: 100%;
   background-color: #16213e;
-  margin: 2px;
+  margin: 10px;
 }
 
 .skills-container {
@@ -301,6 +302,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
 }
 
 .services-container .box-container .box {
@@ -465,7 +467,6 @@
   }
   .home-container {
     height: 100vh;
-    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -473,9 +474,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
     padding: 8% 12%;
   }
   .home-container .texts {
@@ -538,16 +536,90 @@
     left: 0%;
     top: 0%;
     height: 20em;
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
   }
   .home-container .reverse {
-    display: initial;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .about-container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about-container .about-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1em;
+  }
+  .about-container .about-text p:nth-child(1) {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 15px;
+  }
+  .about-container .work-experience {
+    padding: 1px 10px;
+    margin-bottom: 10%;
+    width: 60%;
+  }
+  .about-container .work-experience .work-experience-header {
+    font-weight: bold;
+    font-size: 35px;
+    padding: 10px;
+  }
+  .about-container .work-experience .card {
+    padding: 0.6em;
+    background-color: #16213e;
+    margin: 10px;
+  }
+  .skills-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .skills-container .skills-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .skills-container .skills-header p {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 15px;
   }
 }
 
@@ -755,6 +827,46 @@ footer p:nth-child(2) {
 
 .employment-date {
   font-size: 12px;
-  color: gray;
+  color: #FFEB3B;
+}
+
+.job-responsibilities {
+  padding: 10px;
+}
+
+hr {
+  margin: 7px;
+  font-size: 1px;
+}
+
+.position {
+  font-size: 12px;
+}
+
+.card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.company-logo {
+  margin: 10px;
+  height: 50px;
+}
+
+.alliance {
+  background-color: white;
+  padding: 6px;
+}
+
+.mlhuillier {
+  background-color: white;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,22 +1,27 @@
 @media all and (min-width: 960px) {
+
   /* Desktop menu */
   .menu {
     align-items: flex-start;
     flex-wrap: nowrap;
     background: none;
   }
+
   .logo {
     order: 0;
   }
+
   .item {
     order: 1;
     position: relative;
     display: block;
     width: auto;
   }
+
   .button {
     order: 2;
   }
+
   .submenu-active .submenu {
     display: block;
     position: absolute;
@@ -24,41 +29,47 @@
     top: 68px;
     background: #111;
   }
+
   .toggle {
     display: none;
   }
+
   .submenu-active {
     border-radius: 0;
   }
 
   .home-container {
     height: 100vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 8% 12%;
+
     .texts {
       align-items: flex-start;
+
       p {
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
       }
+
       p:nth-child(1) {
         font-weight: bold;
         font-size: 22px;
       }
+
       p:nth-child(2) {
         font-weight: bold;
         font-size: 50px;
         line-height: 50px;
         padding: 0.6em 0px;
       }
+
       p:nth-child(3) {
         font-size: 30px;
         line-height: 30px;
       }
     }
+
     .buttons {
       display: flex;
       flex-wrap: wrap;
@@ -85,21 +96,82 @@
         margin: 0px 10px;
       }
     }
+
     .image {
       display: unset;
       justify-content: center;
       padding-top: 1.25em;
     }
+
     .image img {
       position: relative;
       left: 0%;
       top: 0%;
       height: 20em;
-      order: 3;
     }
+
     .reverse {
-      display: initial;
+      display: flex;
       flex-direction: column;
+    }
+  }
+
+  .about-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .about-text {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      padding: 1em;
+
+      p:nth-child(1) {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 35px;
+        padding: 15px;
+      }
+    }
+
+    .work-experience {
+      padding: 1px 10px;
+      margin-bottom: 10%;
+      width: 60%;
+
+      .work-experience-header {
+        font-weight: bold;
+        font-size: 35px;
+        padding: 10px;
+      }
+
+      .card {
+        padding: 0.6em;
+        background-color: $p-dark2;
+        margin: 10px;
+      }
+    }
+  }
+
+  // Skills container
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .skills-header {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+
+      p {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 35px;
+        padding: 15px;
+      }
     }
   }
 }
